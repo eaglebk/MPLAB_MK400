@@ -1,0 +1,59 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Tue Aug 19 18:04:35 2014
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+           Us_App_Vectors       code   0x00c000    program   0x000026
+                   .cinit    romdata   0x00c100    program   0x000002
+             .code_TEST.o       code   0x00c102    program   0x000002
+          .idata_TEST.o_i    romdata   0x00c104    program   0x000000
+          .romdata_TEST.o    romdata   0x00c104    program   0x000000
+               EE_Id_Vect       code   0xf00014    program   0x000004
+                MATH_DATA      udata   0x000010       data   0x000000
+                 .tmpdata      udata   0x000010       data   0x000000
+            .udata_TEST.o      udata   0x000c00       data   0x000000
+            .idata_TEST.o      idata   0x000c00       data   0x000000
+               Stack_Zone      udata   0x000e00       data   0x000100
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x00c000    0x00c025      
+                            0x00c100    0x00c103      
+                            0xf00014    0xf00017      
+            46 out of 131352 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               C_PROJECT1   0x00c102    program     extern D:\Dev\workspace\electronic\MPLAB\TEST.c
+              ID_User_App   0x00c01c    program     static D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+Optional_Handler_LoInt_Port1   0x00c008    program     extern D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+Optional_Handler_LoInt_Port2   0x00c010    program     extern D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+Optional_Handler_Main_Port1   0x00c004    program     extern D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+Optional_Handler_Main_Port2   0x00c00c    program     extern D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+         User_Application   0x00c000    program     extern D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+               usapp_zone   0x00c014    program     static D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+              Stack_Begin   0x000e00       data     static D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+         User_Application   0x00c000    program     extern D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+Optional_Handler_Main_Port1   0x00c004    program     extern D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+Optional_Handler_LoInt_Port1   0x00c008    program     extern D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+Optional_Handler_Main_Port2   0x00c00c    program     extern D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+Optional_Handler_LoInt_Port2   0x00c010    program     extern D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+               usapp_zone   0x00c014    program     static D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+              ID_User_App   0x00c01c    program     static D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+               C_PROJECT1   0x00c102    program     extern D:\Dev\workspace\electronic\MPLAB\TEST.c
+              Stack_Begin   0x000e00       data     static D:\Dev\workspace\electronic\MPLAB\TEST_Vectors.asm
+
+
